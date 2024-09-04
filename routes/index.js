@@ -7,5 +7,6 @@ routes.get('/status', AppController.getStatus);
 routes.get('/stats', AppController.getStats);
 
 export {
-  routes
-}
+  routes,
+  express,
+};
